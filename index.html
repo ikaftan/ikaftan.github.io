@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1168479-8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-1168479-8');
+    </script>
+    <style>
+      html { scroll-behavior: smooth; }
+      body { font-family: Georgia, "Times New Roman", serif;}
+      p {line-height: 25px;}
+      main.container {max-width: 900px;}
+      span.p-title {font-size: 19px;}
+      span.p-authors {font-style: normal;}
+      span.p-conference {font-style: italic;}
+      .p-bibtex {font-size: 12px; margin-bottom: 0px; max-width: 650px; text-align: left;}
+      img.p-teaser {width: 160px;}
+      img.profile {
+        width: 160px;
+        height: 160px;
+        border: 1px solid #ddd;
+        padding: 5px;
+        margin-bottom: 0px;
+        box-shadow: 0 -1px 5px 1px rgba(200, 200, 200, 0.5);
+      }
+    </style>
+
+    <title>Mertcan Akçay</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="mt-5 mb-5 text-center">
+          <img src="images/profile.jpeg" alt="profile" class="rounded-circle profile mr-3 mb-sm-1 float-sm-left" style="margin-top: 25px" />
+          <div class="text-center text-sm-left">
+            <h2>Irem Kaftan</h2>
+            <p align="justify">
+            I am a Master's student in 
+            <a target="_blank" href="https://ee.ethz.ch/studies/master-s-programmes/main-master.html">Electrical Engineering and Information Technology<a> 
+            at ETH Zürich with a focus on robotics and computer vision. Since July 2022, I am working as a Robotic Systems Intern at  
+            <a target="_blank" href="https://www.sevensense.ai/">Sevensense Robotics.<a>
+            In 2017, I obtained my Bachelor's degree in Electrical and Elecronics Engineering at
+            <a target="_blank" href="https://ee.bilkent.edu.tr/en/">Bilkent University.<a>
+            You can view my 
+            <a href="pdfs/Irem Kaftan - CV.pdf">CV</a> 
+            here.
+          </p>
+          
+          <p align="center">
+            <a target="_blank" href="https://scholar.google.com/citations?hl=en&authuser=2&user=3GOYt1cAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a>
+            &nbsp;
+            <a target="_blank" href="https://github.com/ikaftan"><i class="fa fa-github" style="font-size:32px"></i></a>
+            &nbsp;
+            <a target="_blank" href=" www.linkedin.com/in/iremkaftan"><i class="fa fa-linkedin-square" style="font-size:32px"></i></a>
+            &nbsp;
+            <a target="_blank" href="mailto:ikaftan@ethz.ch"><i class="fa fa-envelope" style="font-size:32px"></i></a>
+            </p>
+          </div>
+      </div>
+
+
+    <!-- <h3 class="mb-3 text-center text-sm-left">News</h3>
+
+    <ul class="list-unstyled">
+
+
+      <li style='margin-bottom: 5px'>
+        <b class="mr-4 p-teaser float-sm-left mb-sm-1" style='min-width: 130px'>May 2022 </b>
+      I will co-organize the <a href="https://sites.google.com/view/egocentric-hand-body-activity" target="_blank">HBHA workshop</a> on
+      human body, hands, and activities from egocentric and multi-view cameras at ECCV 2022.
+      </li>
+
+    </ul> -->
+
+      <h3 class="mb-3 text-center text-sm-left" id="publications">Publications</h3>
+
+      <ul class="list-unstyled">
+
+        <li class="media">
+        <div class="media-body text-center">
+          <img src="images/human3d.gif" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+          <p class="text-left">
+            <span class="p-title">3D Segmentation of Humans in Point Clouds with Synthetic Data</span></br>
+            <span class="p-authors">
+              Ayça Takmaz*, Jonas Schult*, <u>Irem Kaftan</u><sup>&dagger;</sup>, Mertcan Akçay<sup>&dagger;</sup>, Bastian Leibe, Robert Sumner, Francis Engelmann, Siyu Tang
+            </span></br>
+              <span class="p-conference">arXiv, 2022.</span></br>
+            <a class="mr-3" target="_blank" href="https://arxiv.org/abs/2212.00786"><i class="fa fa-file-pdf-o"></i> Paper</a>
+            <a class="mr-3" data-toggle="collapse" href="#bibtex_human3d" role="button" aria-expanded="false" aria-controls="bibtex_human3d"><i class="fa fa-file-text-o"></i> BibTeX</a>
+            <a class="mr-3" target="_blank" href="https://jonasschult.github.io/Human3D/"><i class="fa fa-cube"></i> Project</a>
+            <a class="mr-3" target="_blank" href="https://github.com/jonasschult/Human3D"><i class="fa fa-file-code-o"></i> Code</a>
+            <div class="collapse" id="bibtex_human3d">
+              <div class="card card-body">
+<pre class="p-bibtex">@inproceedings{Takmaz2022human3d,
+    title = {{3D Segmentation of Humans in Point Clouds with Synthetic Data}},
+    author = {Ayca Takmaz, Jonas Schult, Irem Kaftan, Mertcan Akcay, Bastian Leibe, Robert Sumner, Francis Engelmann and Siyu Tang},
+    booktitle = {{arXiv}},
+    year = {2022}
+}</pre>
+                </div>
+            </div>
+          </p>
+        </div>
+      </li>
+
+</br>
+
+      <!-- </ul>
+
+      <h3 class="mb-3 text-center text-sm-left">Projects</h3>
+
+      <ul class="list-unstyled">
+
+        <li class="media"><div class="media-body">
+          <img src="images/deepfake.gif" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+          <p>
+          <span>Audio Driven Talking Videos (Deepfake) | <i>Research Assistant</i></span><br />
+          <a class="mr-3" target="_blank" href="https://youtu.be/Y7PLMgrIXRs"><i class="fa fa-youtube-play"></i> Demo</a>
+          <a class="mr-3" target="_blank" href="https://github.com/cmakcay/audio-driven-talking-video"><i class="fa fa-file-code-o"></i> Code</a>
+
+        </p></div></li>
+
+      </br>
+
+        <li class="media"><div class="media-body">
+          <img src="images/tracker.png" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+          <p>
+          <span>Facial Tracker | <i>Research Assistant</i></span><br />
+          <a class="mr-3" target="_blank" href="https://youtu.be/izs4IpSFlCE"><i class="fa fa-youtube-play"></i> Demo</a>
+          <a class="mr-3" target="_blank" href="https://github.com/cmakcay/tracker"><i class="fa fa-file-code-o"></i> Code</a>
+
+        </p></div></li>
+
+      </br>
+
+      <li class="media"><div class="media-body">
+        <img src="images/rpg.png" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+        <p>
+        <span>Reinforcement Learning for Off-board Control of a Racing Drone | <i>Semester Thesis</i></span><br />
+        <a class="mr-3" target="_blank" href="https://youtu.be/vwyK_FA4eRM"><i class="fa fa-youtube-play"></i> Video</a>
+        <a class="mr-3" target="_blank" href="pdfs/Mert_Semester_Thesis.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>
+      </p></div></li>
+
+      </br>
+
+        <li class="media"><div class="media-body">
+          <img src="images/vh.png" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+          <p>
+          <span>Learning to Segment Humans in 3D Scenes | <i>Virtual Humans Course Project</i></span><br />
+          <a class="mr-3" target="_blank" href="pdfs/Learning_to_Segment_Humans_in_3D_Scenes___Virtual_Humans_2022.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>
+        </p></div></li>
+
+      </br>
+
+        <li class="media"><div class="media-body">
+          <img src="images/plr.png" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+          <p>
+          <span>Interactive Exploration for Mapping | <i>Perception and Learning for Robotics Course Project</i></span><br />
+          <a class="mr-3" target="_blank" href="https://youtu.be/zQj_Gugsty4"><i class="fa fa-youtube-play"></i> Video</a>
+          <a class="mr-3" target="_blank" href="pdfs/PLR_Final_Akcay_Kaftan.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>
+          <a class="mr-3" target="_blank" href="https://github.com/cmakcay/interaction-mapping"><i class="fa fa-file-code-o"></i> Code</a>
+        </p></div></li>
+
+      </br>
+
+      <li class="media"><div class="media-body">
+        <img src="images/vamr.png" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+        <p>
+        <span>Monocular Visual Odometry Pipeline | <i>Vision Algorithms for Mobile Robotics Course Project</i></span><br />
+        <a class="mr-3" target="_blank" href="https://youtu.be/vFFwGW4IjDU"><i class="fa fa-youtube-play"></i> Video</a>
+        <a class="mr-3" target="_blank" href="pdfs/VAMR Mini Project Report - Akcay, Kaftan.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>
+        <a class="mr-3" target="_blank" href="https://github.com/cmakcay/VAMR-MP"><i class="fa fa-file-code-o"></i> Code</a>
+      </p></div></li>
+      
+    </br>
+      
+      <li class="media"><div class="media-body">
+        <img src="images/mixedreality.png" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+        <p>
+        <span>Human-Machine Collaboration Using AR | <i>Mixed Reality Course Project</i></span><br />
+        <a class="mr-3" target="_blank" href="https://youtu.be/yq3irtnG0oc"><i class="fa fa-youtube-play"></i> Video</a>
+        <a class="mr-3" target="_blank" href="pdfs/Mixed_Reality.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>
+        <a class="mr-3" target="_blank" href="https://github.com/Yoekkul/PointCloud-Terrain-Editor-for-Hololens"><i class="fa fa-file-code-o"></i> Code</a>
+      </p></div></li>
+
+    </br>
+      
+    <li class="media"><div class="media-body">
+      <img src="images/caesar.png" class="mr-4 p-teaser float-sm-left mb-sm-1" />
+      <p>
+      <span>Autonomous Robot | <i>Bachelor Thesis</i></span><br />
+      <a class="mr-3" target="_blank" href="https://youtu.be/erUOT-q2MsY"><i class="fa fa-youtube-play"></i> Video</a>
+      <a class="mr-3" target="_blank" href="pdfs/CM4 Report.pdf"><i class="fa fa-file-pdf-o"></i> Report</a>
+      <a class="mr-3" target="_blank" href="https://github.com/Yoekkul/PointCloud-Terrain-Editor-for-Hololens"><i class="fa fa-file-code-o"></i> Code</a>
+    </p></div></li>
+
+      </ul>
+    
+    </br> -->
+    
+    <!-- <h3 class="mb-3 text-center text-sm-left">Misc.</h3>
+    <ul class="list-unstyled">
+    </ul>
+    </main> -->
+
+    <footer class="text-muted">
+      <div class="container">
+        <hr />
+        <p align="center"><a href="#">Back to top <i class="fa fa-chevron-up"></i></a></p>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
